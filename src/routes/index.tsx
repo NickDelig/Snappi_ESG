@@ -12,7 +12,7 @@ import { meta } from "@/lib/snappi/meta";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
-  head: () => meta("Snappi — Banking that rewards better choices", "Your Snappi accounts, personal ESG Score and Snappies rewards in one place. Climathon demo."),
+  head: () => meta("Snappi ESG", "Your Snappi accounts, personal ESG Score and Snappies rewards in one place. Climathon demo."),
   component: HomePage,
 });
 
